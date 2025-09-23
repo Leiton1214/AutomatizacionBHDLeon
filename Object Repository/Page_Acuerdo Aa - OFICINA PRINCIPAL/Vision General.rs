@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Vision General</name>
+   <tag></tag>
+   <elementGuidId>f757de22-55dd-4528-8725-76c16504e2ff</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@title='Visión general']&#xd;
+</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#C1__C1__C1__C1__C1__QUE_995F3082662B26608949629_R1 > span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=link[name=&quot;Ķ&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>154c673a-2f55-4211-afae-489e67dd7520</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;C1__C1__C1__C1__C1__QUE_995F3082662B26608949629_R1&quot;)/span[1]</value>
+      <webElementGuid>41507d4a-03e5-4979-bb33-9fd09b3cafbb</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//a[@id='C1__C1__C1__C1__C1__QUE_995F3082662B26608949629_R1']/span</value>
+      <webElementGuid>bae3c580-b99a-4f94-936f-ebf8a40acfec</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//span[3]/a/span</value>
+      <webElementGuid>62b582dd-c225-4abd-ab86-5963a1dd86bf</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

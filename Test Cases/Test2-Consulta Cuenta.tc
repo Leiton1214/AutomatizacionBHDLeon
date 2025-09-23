@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Test2-Consulta Cuenta</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>bd7d554e-31da-4373-8b86-648c4a53e90a</testCaseGuid>
+</TestCaseEntity>

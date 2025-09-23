@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Operaciones Minoristas</name>
+   <tag></tag>
+   <elementGuidId>0d1692df-4b5f-4446-ad79-cabe332233d5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//ul[@id='menu']/li/ul/li[8]/a/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=link[name=&quot;Operaciones Minoristas p&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>fc211dea-ae81-4779-81ff-c7ce19f2a2c3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>tc-truncated-item</value>
+      <webElementGuid>16506db2-54a0-45f2-a2ca-4688f7445219</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Operaciones Minoristas</value>
+      <webElementGuid>41382ed4-a0b9-4ac5-a06a-75614f8fbb08</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;menu&quot;)/li[@class=&quot;listItem active&quot;]/ul[@class=&quot;submenu&quot;]/li[@class=&quot;listItem&quot;]/a[1]/span[@class=&quot;tc-truncated-item&quot;]</value>
+      <webElementGuid>6dee1504-7e41-4493-bdbe-081b8fdba4f8</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//ul[@id='menu']/li/ul/li[8]/a/span</value>
+      <webElementGuid>c81c19e2-0046-4323-bb0c-28b28da4555c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Catálogo de Productos'])[1]/following::span[2]</value>
+      <webElementGuid>c4ecf006-4888-440d-b8f8-2167e49bf0c2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Autorizar TXNS enviado'])[1]/following::span[4]</value>
+      <webElementGuid>bbc8cd62-c061-4ead-a939-3338c7dcf23f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Catálogo de Productos'])[2]/preceding::span[1]</value>
+      <webElementGuid>a702b018-6c90-488a-83f3-a4c128c8d609</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Buscar Cliente'])[1]/preceding::span[3]</value>
+      <webElementGuid>9971c2ba-bf3e-4220-9d86-71b4809f9a9b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Operaciones Minoristas']/parent::*</value>
+      <webElementGuid>aa38b772-efc8-4df1-992b-0edee77149b7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[8]/a/span</value>
+      <webElementGuid>481e77df-2489-4835-9ae6-3328fcfda706</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Operaciones Minoristas' or . = 'Operaciones Minoristas')]</value>
+      <webElementGuid>8d61fcbd-1468-4864-b09f-84fe14bef678</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

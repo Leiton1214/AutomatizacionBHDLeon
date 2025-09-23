@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Buscar Cuenta</name>
+   <tag></tag>
+   <elementGuidId>e8455286-0f13-4ac0-88fc-895d99dfb53a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//ul[@id='menu']/li/ul/li[8]/ul/li[3]/a/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=link[name=&quot;ń Buscar Cuenta ŧ&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>5478bf8d-f80c-4225-8b91-8b6c2c74a924</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>tc-truncated-item</value>
+      <webElementGuid>ecb8b790-ed22-4e05-b26a-8c953a370ac8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Buscar Cuenta</value>
+      <webElementGuid>77574aa5-ce1a-416d-aece-4d1d2799a55c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;menu&quot;)/li[@class=&quot;listItem active&quot;]/ul[@class=&quot;submenu&quot;]/li[@class=&quot;listItem active&quot;]/ul[@class=&quot;submenu&quot;]/li[@class=&quot;listItem&quot;]/a[@class=&quot;c&quot;]/span[@class=&quot;tc-truncated-item&quot;]</value>
+      <webElementGuid>e2bd0c4a-7ac2-457c-bdcf-3dde6d35631a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//ul[@id='menu']/li/ul/li[8]/ul/li[3]/a/span</value>
+      <webElementGuid>d81a2803-33e0-4c4f-8cf9-5b9da110f795</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Buscar Cliente'])[1]/following::span[2]</value>
+      <webElementGuid>e0f49571-4462-40f0-88b7-dc5d12714df0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Catálogo de Productos'])[2]/following::span[4]</value>
+      <webElementGuid>06165ac1-cf36-4653-99c7-2e0a02faa5a2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Transacciones de Cuenta'])[1]/preceding::span[2]</value>
+      <webElementGuid>0e795456-d7cf-4bfc-a752-722cdc3df9c0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cajero'])[1]/preceding::span[3]</value>
+      <webElementGuid>f7b72714-22a4-4433-bdbd-fa63aaa2316e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Buscar Cuenta']/parent::*</value>
+      <webElementGuid>c791ba19-6e00-413a-8129-4037add339cf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[8]/ul/li[3]/a/span</value>
+      <webElementGuid>81b196e5-0a27-4ec4-b31f-052c81c918c8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Buscar Cuenta' or . = 'Buscar Cuenta')]</value>
+      <webElementGuid>4522b614-c300-424c-b766-88b7a5fb083a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

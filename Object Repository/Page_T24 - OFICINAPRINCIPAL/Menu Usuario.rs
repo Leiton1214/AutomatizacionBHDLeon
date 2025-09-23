@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Menu Usuario</name>
+   <tag></tag>
+   <elementGuidId>2f52b827-5876-4fa6-985b-b34dcb29bfc7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>span.tc-truncated-item</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//ul[@id='menu']/li/a/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=link[name=&quot;Menú Usuario p&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>b29092fb-ede9-4766-bc56-75e7067623c9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>tc-truncated-item</value>
+      <webElementGuid>495b3b40-ad26-4b56-94d5-12136515afd5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Menú Usuario</value>
+      <webElementGuid>053e2e54-9f54-4cac-9f51-7b4200607ee3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;menu&quot;)/li[@class=&quot;listItem&quot;]/a[1]/span[@class=&quot;tc-truncated-item&quot;]</value>
+      <webElementGuid>643c2001-a1cd-47a9-a0e2-03a404bb284b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//ul[@id='menu']/li/a/span</value>
+      <webElementGuid>43b5b531-8594-4ef6-874f-87dc3fb1db40</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Menu'])[1]/following::span[1]</value>
+      <webElementGuid>95d4e6ad-48a9-45c1-96eb-e8b9505a7334</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Relación de Cliente'])[1]/preceding::span[1]</value>
+      <webElementGuid>8d8dcc26-4684-49b4-8a96-4e968601978d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Persona'])[1]/preceding::span[2]</value>
+      <webElementGuid>0aaf66cf-6705-433f-baf7-edfeeb357af5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Menú Usuario']/parent::*</value>
+      <webElementGuid>8a96721d-5ab9-4a25-9b2d-1dd6789b31b3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li/a/span</value>
+      <webElementGuid>27bb1432-9fdb-43f9-adfa-64ac26f6480b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Menú Usuario' or . = 'Menú Usuario')]</value>
+      <webElementGuid>1858afe5-3877-46d6-9c8f-e3effe35a1e8</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
