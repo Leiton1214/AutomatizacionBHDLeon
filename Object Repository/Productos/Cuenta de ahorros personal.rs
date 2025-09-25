@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Cuenta de ahorros personal</name>
+   <tag></tag>
+   <elementGuidId>bf6c6453-4867-4fab-8b78-4e658e4e6972</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@script-id='BLDRAAPRODUCTCATALOGPRODUCTS_DRILLDOWN_R14_1']&#xd;
+</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#C1__C2__C1__C2__C1__C2__C1__QUE_CB01DE47ED07F805387756_R14 > span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=row[name=&quot;The value for Description is Cuenta de Ahorros Personal Ģ Simular&quot;i] >> internal:attr=[title=&quot;Nuevo Arreglo&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>10e149a2-9213-470a-ae26-a1487735f6fd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;C1__C2__C1__C2__C1__C2__C1__QUE_CB01DE47ED07F805387756_R14&quot;)/span[1]</value>
+      <webElementGuid>8430e256-9fa0-479f-a75d-3f9671501d8a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//a[@id='C1__C2__C1__C2__C1__C2__C1__QUE_CB01DE47ED07F805387756_R14']/span</value>
+      <webElementGuid>c5027874-9341-4f57-a78f-1c773b30efbe</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tr[14]/td[4]/div/span[3]/a/span</value>
+      <webElementGuid>a5f92739-dd19-4035-8b34-b41aad372143</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -7,7 +7,7 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl(GlobalVariable.URL)
 
-WebUI.setText(findTestObject('Object Repository/Page_T24 Login/Usuario'), GlobalVariable.USUARIO)
+WebUI.setText(findTestObject('Object Repository/Login/Usuario'), GlobalVariable.USUARIO)
 
-WebUI.click(findTestObject('Object Repository/Page_T24 Login/BotonLogin'))
+WebUI.click(findTestObject('Object Repository/Login/BotonLogin'))
 

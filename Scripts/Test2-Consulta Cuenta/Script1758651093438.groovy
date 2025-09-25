@@ -8,21 +8,21 @@ WebUI.callTestCase(findTestCase('Test1-Login'), [:], FailureHandling.STOP_ON_FAI
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Object Repository/Page_T24 - OFICINAPRINCIPAL/Menu'))
+WebUI.click(findTestObject('Object Repository/Consultar Cuenta/Menu'))
 
-WebUI.click(findTestObject('Object Repository/Page_T24 - OFICINAPRINCIPAL/Menu Usuario'))
+WebUI.click(findTestObject('Object Repository/Consultar Cuenta/Menu Usuario'))
 
-WebUI.click(findTestObject('Object Repository/Page_T24 - OFICINAPRINCIPAL/Operaciones Minoristas'))
+WebUI.click(findTestObject('Object Repository/Consultar Cuenta/Operaciones Minoristas'))
 
-WebUI.click(findTestObject('Object Repository/Page_T24 - OFICINAPRINCIPAL/Buscar Cuenta'))
+WebUI.click(findTestObject('Object Repository/Consultar Cuenta/Buscar Cuenta'))
 
-WebUI.click(findTestObject('Object Repository/Page_Acuerdo Aa - OFICINA PRINCIPAL/Borrar X'))
+WebUI.click(findTestObject('Object Repository/Consultar Cuenta 1/Borrar X'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Acuerdo Aa - OFICINA PRINCIPAL/Ingresar ID'), '9680585')
+WebUI.setText(findTestObject('Object Repository/Consultar Cuenta 1/Ingresar ID'), '9680585')
 
-WebUI.click(findTestObject('Object Repository/Page_Acuerdo Aa - OFICINA PRINCIPAL/Encontrar'))
+WebUI.click(findTestObject('Object Repository/Consultar Cuenta 1/Encontrar'))
 
-WebUI.click(findTestObject('Object Repository/Page_Acuerdo Aa - OFICINA PRINCIPAL/Vision General'))
+WebUI.click(findTestObject('Object Repository/Consultar Cuenta 1/Vision General'))
 
 WebUI.closeBrowser()
 
