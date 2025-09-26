@@ -1,6 +1,11 @@
 pipeline {
     agent any
 
+    environment {
+        KATALON_HOME = "C:\\Users\\user\\Desktop\\Katalon_Studio_Engine_Windows_64-10.3.1"
+        KATALON_API_KEY = credentials('katalon-api-key') // <-- guarda tu API Key en Jenkins Credentials
+    }
+
     stages {
         stage('Checkout') {
             steps {
@@ -11,16 +16,15 @@ pipeline {
 
         stage('Run Katalon Tests') {
             steps {
-                withCredentials([string(credentialsId: 'katalon-api-key', variable: 'KATALON_KEY')]) {
+                script {
                     bat """
-                    "C:\\Users\\user\\Desktop\\Katalon_Studio_Engine_Windows_64-10.3.1\\katalonc.exe" ^
-                     -noSplash -runMode=console ^
-                     -projectPath="C:\\Users\\user\\.jenkins\\workspace\\AutomatizacionBHDLeon\\AutomatizacionBHDLeon.prj" ^
-                     -retry=0 ^
-                     -testSuitePath="Test Suites/Test Suite Login - Consulta Cuentas" ^
-                     -executionProfile=default ^
-                     -browserType="Chrome" ^
-                     -apiKey=%KATALON_KEY%
+                        "${KATALON_HOME}\\katalonc.exe" -noSplash -runMode=console ^
+                        -projectPath="AutomatizacionBHDLeon.prj" ^
+                        -retry=0 ^
+                        -testSuitePath="Test Suites/Test Suite Login - Consulta Cuentas" ^
+                        -executionProfile=default ^
+                        -browserType="Chrome" ^
+                        -apiKey=%KATALON_API_KEY%
                     """
                 }
             }
@@ -29,13 +33,24 @@ pipeline {
 
     post {
         always {
-            junit '**/Reports/**/*.xml'
+            echo "📂 Publicando reportes..."
+            // Publica los reportes JUnit que genera Katalon en Reports/...
+            junit allowEmptyResults: true, testResults: 'Reports/**/*.xml'
+
+            // Archiva TODOS los reportes de Katalon (HTML, CSV, etc.)
+            archiveArtifacts artifacts: 'Reports/**/*.*', allowEmptyArchive: true
         }
-        failure {
-            echo "❌ Fallaron las pruebas."
-        }
+
         success {
-            echo "✅ Todas las pruebas pasaron."
+            echo "✅ Todas las pruebas pasaron con éxito."
+        }
+
+        unstable {
+            echo "⚠️ Algunas pruebas fallaron o no se pudieron reportar correctamente."
+        }
+
+        failure {
+            echo "❌ Hubo un error en la ejecución."
         }
     }
 }
