@@ -7,18 +7,19 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='COL_3B224FD68CBCFA9126443']//a[@title='Mostrar/Ocultar Menú']</value>
-      </entry>
-      <entry>
-         <key>CSS</key>
-         <value>#BUT_3B224FD68CBCFA9126262 > span</value>
+         <value>//a[@title='Mostrar/Ocultar Menú']&#xd;
+</value>
       </entry>
       <entry>
          <key>BASIC</key>
          <value>//*[(text() = 'Show/Hide Menu' or . = 'Show/Hide Menu')]</value>
       </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#BUT_3B224FD68CBCFA9126262 > span</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
@@ -33,7 +34,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>e85e2c07-75f7-4b57-be87-330900f7f551</webElementGuid>
+      <webElementGuid>6a5e928b-1404-49f7-919d-419fd6f03fb0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -41,7 +42,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Show/Hide Menu</value>
-      <webElementGuid>97b31c21-4cd8-4364-b34d-1d5fdc9f4d3e</webElementGuid>
+      <webElementGuid>0ec6b2f3-b250-4454-9c04-a7a9b2be2815</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,7 +50,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;BUT_3B224FD68CBCFA9126262&quot;)/span[1]</value>
-      <webElementGuid>27dc8a6f-1bf5-481d-b5f0-679f505d0af8</webElementGuid>
+      <webElementGuid>fd2259d0-190e-46d4-ac98-3dfb8c2c0543</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -57,7 +58,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//a[@id='BUT_3B224FD68CBCFA9126262']/span</value>
-      <webElementGuid>58301ff2-d26e-49f4-bd5a-4765bccefeac</webElementGuid>
+      <webElementGuid>acb03464-8bce-4c69-ad8c-8556cb27f6dd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -65,7 +66,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Settings'])[2]/following::span[1]</value>
-      <webElementGuid>e372dc3d-3358-4096-b062-77ad7953153f</webElementGuid>
+      <webElementGuid>bae6d79a-1f05-4e0a-889b-6b6f89111731</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -73,7 +74,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Settings'])[1]/following::span[2]</value>
-      <webElementGuid>d9551b85-6e0d-472f-8132-7e32a9a2672a</webElementGuid>
+      <webElementGuid>6d4f08c8-2d83-4b29-8710-0d91f0b1251a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -81,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Command Line'])[1]/preceding::span[1]</value>
-      <webElementGuid>f00fc559-8a04-4806-b617-6ed9010a213a</webElementGuid>
+      <webElementGuid>d2ad8a9f-bbb3-4695-b720-c25a2f6c6f78</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -89,7 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Command Line'])[2]/preceding::span[1]</value>
-      <webElementGuid>614c9b40-3cb7-4bb9-b2b1-ffc84d4a1ea1</webElementGuid>
+      <webElementGuid>22c7e37e-743b-4903-a5b5-0b0574be51d5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -97,7 +98,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Show/Hide Menu']/parent::*</value>
-      <webElementGuid>d8ef106d-2f10-4be2-892d-c67279f7065c</webElementGuid>
+      <webElementGuid>b66ded01-3181-4b5c-92fb-4e884c375888</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,7 +106,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/div/div/div/div/a/span</value>
-      <webElementGuid>eaae16ee-6ad4-4503-ae02-838758f086c7</webElementGuid>
+      <webElementGuid>8563244f-aa2b-44fd-8f4a-418d305764aa</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -113,6 +114,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'Show/Hide Menu' or . = 'Show/Hide Menu')]</value>
-      <webElementGuid>734f37e7-3c38-4197-8e9b-f39ffe1a2e89</webElementGuid>
+      <webElementGuid>5b261dcb-2142-44f6-97d1-da94882edbe3</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
