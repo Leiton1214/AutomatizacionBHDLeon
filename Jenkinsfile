@@ -11,7 +11,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/tuUsuario/AutomatizacionBHDLeon.git'
+                git branch: 'main', url: 'https://github.com/Leiton1214/AutomatizacionBHDLeon.git'
             }
         }
 
