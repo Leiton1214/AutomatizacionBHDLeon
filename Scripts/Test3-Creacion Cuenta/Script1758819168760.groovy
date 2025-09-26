@@ -1,7 +1,7 @@
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
-import internal.GlobalVariable // Solo importa la clase GlobalVariable si la necesitas, sin alias.
-import java.io.FileWriter // Importa la clase de manejo de archivos de Java.
+import internal.GlobalVariable as GlobalVariable
+import java.io.FileWriter as FileWriter
 
 WebUI.waitForElementVisible(findTestObject('Consultar Cuenta/Menu'), 30)
 
@@ -55,7 +55,7 @@ writer.write(((('Cuenta: ' + cuentaID) + ' | Fecha: ') + fechaCreacion) + '\n')
 
 writer.close()
 
-WebUI.closeWindow()
+WebUI.closeWindowIndex(1)
 
 WebUI.switchToWindowIndex(0)
 
