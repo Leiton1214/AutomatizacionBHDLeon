@@ -49,18 +49,12 @@ pipeline {
         }
 
         stage('Publish Reports') {
-            steps {
-                // publica todos los xml que Katalon genera en Reports/...
-                junit allowEmptyResults: true, testResults: 'Reports/**/*.xml'
-                // (opcional) mostrar HTML si instalaste plugin HTML Publisher
-                publishHTML(target: [
-                    allowMissing: true,
-                    alwaysLinkToLastBuild: true,
-                    keepAll: true,
-                    reportDir: 'Reports',
-                    reportFiles: 'report.html',
-                    reportName: 'Katalon HTML Report'
-                ])
+    steps {
+        script {
+            echo "Archivando reportes de Katalon..."
+            // Esta ruta archiva todos los archivos HTML y otros reportes generados por Katalon
+            archiveArtifacts artifacts: 'Reports/**/*', fingerprint: true
+        }
             }
         }
     }
