@@ -20,8 +20,6 @@ import internal.GlobalVariable as GlobalVariable
 // Guardar en archivo externo
 import java.io.FileWriter as FileWriter
 
-WebUI.callTestCase(findTestCase('Test1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
-
 WebUI.waitForElementVisible(findTestObject('Consultar Cuenta/Menu'), 30)
 
 WebUI.click(findTestObject('Consultar Cuenta/Menu'))
