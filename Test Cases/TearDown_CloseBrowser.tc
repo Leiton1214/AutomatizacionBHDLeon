@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TearDown_CloseBrowser</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>525bc7ea-8302-4ce4-9d49-f85f2bc3144d</testCaseGuid>
+</TestCaseEntity>

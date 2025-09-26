@@ -34,6 +34,7 @@ import com.kms.katalon.core.annotation.TearDownTestCase
 @SetUp(skipped = true) // Please change skipped to be false to activate this method.
 def setUp() {
 	// Put your code here.
+	WebUI.callTestCase(findTestCase('Test Cases/Setup_OpenBrowser'), [:], FailureHandling.STOP_ON_FAILURE)
 }
 
 /**
@@ -42,6 +43,7 @@ def setUp() {
 @TearDown(skipped = true) // Please change skipped to be false to activate this method.
 def tearDown() {
 	// Put your code here.
+	WebUI.callTestCase(findTestCase('Test Cases/TearDown_CloseBrowser'), [:], FailureHandling.STOP_ON_FAILURE)
 }
 
 /**

@@ -22,7 +22,7 @@ import java.io.FileWriter as FileWriter
 
 WebUI.callTestCase(findTestCase('Test1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementClickable(findTestObject("Consultar Cuenta/Menu"), 30)
+WebUI.waitForElementVisible(findTestObject('Consultar Cuenta/Menu'), 30)
 
 WebUI.click(findTestObject('Consultar Cuenta/Menu'))
 
@@ -73,6 +73,4 @@ FileWriter writer = new FileWriter('C:/Users/user/Desktop/Cuentas Creadas Katalo
 writer.write(((('Cuenta: ' + cuentaID) + ' | Fecha: ') + fechaCreacion) + '\n')
 
 writer.close()
-
-WebUI.closeBrowser()
 
