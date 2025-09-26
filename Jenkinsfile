@@ -19,7 +19,7 @@ pipeline {
                 script {
                     bat """
                         "${KATALON_HOME}\\katalonc.exe" -noSplash -runMode=console ^
-                        -projectPath="AutomatizacionBHDLeon.prj" ^
+                        -projectPath="C:\\Users\\user\\.jenkins\\workspace\\AutomatizacionBHDLeon\\AutomatizacionBHDLeon.prj" ^
                         -retry=0 ^
                         -testSuitePath="Test Suites/Test Suite Login - Consulta Cuentas" ^
                         -executionProfile=default ^
