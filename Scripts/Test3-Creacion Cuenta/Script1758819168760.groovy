@@ -1,6 +1,9 @@
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
-import internal.GlobalVariable as FileWriter
+
+// Importa correctamente la clase de escritura de archivos de Java.
+import java.io.FileWriter 
+// La clase GlobalVariable se accede directamente sin necesidad de importación.
 
 WebUI.waitForElementVisible(findTestObject('Consultar Cuenta/Menu'), 30)
 
