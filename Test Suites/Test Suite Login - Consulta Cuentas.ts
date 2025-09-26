@@ -19,6 +19,13 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
+      <guid>775eec72-bcd2-4b7a-abe3-6aebe761739d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Test4-Consulta Pago</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
       <guid>08530fae-7759-4bab-9aa0-1041c190c512</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -26,10 +33,10 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>775eec72-bcd2-4b7a-abe3-6aebe761739d</guid>
+      <guid>3fd45cfa-3acd-4523-b4f8-73b7b6d71059</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Test4-Consulta Pago</testCaseId>
+      <testCaseId>Test Cases/Test3-Creacion Cuenta</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>
