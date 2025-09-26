@@ -16,13 +16,13 @@ WebUI.click(findTestObject('Object Repository/Consultar Cuenta/Operaciones Minor
 
 WebUI.click(findTestObject('Object Repository/Consultar Cuenta/Buscar Cuenta'))
 
-WebUI.click(findTestObject('Object Repository/Consultar Cuenta 1/Borrar X'))
+WebUI.click(findTestObject('Object Repository/Consultar Cuenta Segunda Fase/Borrar X'))
 
-WebUI.setText(findTestObject('Object Repository/Consultar Cuenta 1/Ingresar ID'), '9680585')
+WebUI.setText(findTestObject('Object Repository/Consultar Cuenta Segunda Fase/Ingresar ID'), '9680585')
 
-WebUI.click(findTestObject('Object Repository/Consultar Cuenta 1/Encontrar'))
+WebUI.click(findTestObject('Object Repository/Consultar Cuenta Segunda Fase/Encontrar'))
 
-WebUI.click(findTestObject('Object Repository/Consultar Cuenta 1/Vision General'))
+WebUI.click(findTestObject('Object Repository/Consultar Cuenta Segunda Fase/Vision General'))
 
 WebUI.closeBrowser()
 
