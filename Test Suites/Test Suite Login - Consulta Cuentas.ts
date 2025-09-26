@@ -33,7 +33,7 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>3fd45cfa-3acd-4523-b4f8-73b7b6d71059</guid>
+      <guid>33990523-2121-4c5d-bf06-7ce9a657184c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Test3-Creacion Cuenta</testCaseId>
