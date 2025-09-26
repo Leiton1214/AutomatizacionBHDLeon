@@ -5,6 +5,8 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 
 WebUI.callTestCase(findTestCase('Test1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.waitForElementClickable(findTestObject("Consultar Cuenta/Menu"), 30)
+
 WebUI.click(findTestObject('Consultar Cuenta/Menu'))
 
 WebUI.click(findTestObject('Consultar Cuenta/Menu Usuario'))
