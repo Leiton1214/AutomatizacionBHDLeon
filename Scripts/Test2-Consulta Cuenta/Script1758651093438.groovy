@@ -33,5 +33,3 @@ WebUI.click(findTestObject('Object Repository/Consultar Cuenta Segunda Fase/Enco
 
 WebUI.click(findTestObject('Object Repository/Consultar Cuenta Segunda Fase/Vision General'))
 
-WebUI.closeBrowser()
-
