@@ -1,0 +1,21 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test Suite Login - Consulta Cuentas,Chrome 140.0.7339.208,,,01-10-2025 16:15:53,01-10-2025 16:19:23,"3m - 29,470s",FAILED
+,,,,,,,
+Start listener action : openBrowserAndLogin,Chrome 140.0.7339.208,,,01-10-2025 16:15:53,01-10-2025 16:16:19,"26,013s",PASSED
+,,,,,,,
+Test Cases/Test1-Login,Chrome 140.0.7339.208,,,01-10-2025 16:18:16,01-10-2025 16:18:53,"36,839s",FAILED
+Start listener action : openBrowserAndLogin,Chrome 140.0.7339.208,,,01-10-2025 16:18:16,01-10-2025 16:18:41,"24,586s",PASSED
+"setText(findTestObject(""Object Repository/Login/Usuario""), USUARIO)",Chrome 140.0.7339.208,,,01-10-2025 16:18:41,01-10-2025 16:18:53,"11,930s",FAILED
+Start listener action : closeBrowser,Chrome 140.0.7339.208,,,01-10-2025 16:18:53,01-10-2025 16:18:53,"0,310s",PASSED
+,,,,,,,
+Test Cases/Test2-Consulta Cuenta,Chrome 140.0.7339.208,,,01-10-2025 16:19:16,01-10-2025 16:19:18,"1,616s",FAILED
+Start listener action : openBrowserAndLogin,Chrome 140.0.7339.208,,,01-10-2025 16:19:16,01-10-2025 16:19:18,"1,546s",ERROR
+"waitForElementVisible(findTestObject(""Consultar Cuenta/Menu""), 30)",Chrome 140.0.7339.208,,,01-10-2025 16:19:18,01-10-2025 16:19:18,"0,012s",FAILED
+Start listener action : closeBrowser,Chrome 140.0.7339.208,,,01-10-2025 16:19:18,01-10-2025 16:19:18,"0,044s",PASSED
+,,,,,,,
+Test Cases/Test4-Consulta Pago,Chrome 140.0.7339.208,,,01-10-2025 16:19:21,01-10-2025 16:19:23,"1,300s",FAILED
+Start listener action : openBrowserAndLogin,Chrome 140.0.7339.208,,,01-10-2025 16:19:22,01-10-2025 16:19:23,"1,245s",ERROR
+"waitForElementVisible(findTestObject(""Consultar Cuenta/Menu""), 30)",Chrome 140.0.7339.208,,,01-10-2025 16:19:23,01-10-2025 16:19:23,"0,012s",FAILED
+Start listener action : closeBrowser,Chrome 140.0.7339.208,,,01-10-2025 16:19:23,01-10-2025 16:19:23,"0,034s",PASSED
+,,,,,,,
+Start listener action : closeBrowser,Chrome 140.0.7339.208,,,01-10-2025 16:19:23,01-10-2025 16:19:23,"0,004s",PASSED

@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test Suite Login - Consulta Cuentas" time="142.307" tests="2" failures="0" errors="0">
+   <testsuite name="Test Suite Login - Consulta Cuentas" tests="2" failures="0" errors="0" time="142.307" skipped="0" timestamp="2025-10-01T23:28:45.680Z" hostname="eyder.leiton - 002-001-02100" id="Test Suites/Test Suite Login - Consulta Cuentas">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\user\\git\\AutomatizacionBHDLeon\\Reports\\20251001_182838\\Test Suite Login - Consulta Cuentas\\20251001_182838"/>
+         <property name="logFiles" value="C:\\Users\\user\\git\\AutomatizacionBHDLeon\\Reports\\20251001_182838\\Test Suite Login - Consulta Cuentas\\20251001_182838\\console0.log, C:\\Users\\user\\git\\AutomatizacionBHDLeon\\Reports\\20251001_182838\\Test Suite Login - Consulta Cuentas\\20251001_182838\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="eyder.leiton - 002-001-02100"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="10.3.1.0"/>
+         <property name="browser" value="Chrome 140.0.7339.208"/>
+         <property name="userFullName" value="Fabian leiton"/>
+         <property name="hostAddress" value="192.168.40.29"/>
+         <property name="sessionId" value="76da1f2baf0a6f293a3d02b7567eb909"/>
+         <property name="projectName" value="AutomatizacionBHDLeon"/>
+         <property name="seleniumVersion" value="4.28.1"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Test2-Consulta Cuenta" time="48.242" classname="Test Cases/Test2-Consulta Cuenta" status="PASSED">
+         <system-out><![CDATA[01-10-2025T18:29:30 - [TEST_CASE][PASSED] - Test Cases/Test2-Consulta Cuenta: Test Cases/Test2-Consulta Cuenta
+
+01-10-2025T18:29:30 - [TEST_STEP][PASSED] - Start listener action : openBrowserAndLogin: Call Test Case 'Test Cases/Test1-Login' successfully
+
+01-10-2025T18:29:30 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+01-10-2025T18:29:30 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+01-10-2025T18:29:31 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+01-10-2025T18:29:31 - [MESSAGE][INFO] - User set preference: ['args', '[--ignore-certificate-errors, --start-maximized]']
+
+01-10-2025T18:29:31 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+01-10-2025T18:29:32 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+01-10-2025T18:29:32 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+01-10-2025T18:29:32 - [MESSAGE][PASSED] - Current window maximized
+
+01-10-2025T18:29:32 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://products.web.t24-noprod.cfbhd.com/Browser/servletcontroller' successfully
+
+01-10-2025T18:29:54 - [MESSAGE][PASSED] - Navigate to 'https://products.web.t24-noprod.cfbhd.com/Browser/servletcontroller' successfully
+
+01-10-2025T18:29:54 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test1-Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Test1-Login' successfully
+
+01-10-2025T18:29:54 - [TEST_CASE][PASSED] - Test Cases/Test1-Login: Test Cases/Test1-Login
+
+01-10-2025T18:29:54 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/Usuario"), USUARIO): Text 'EL102613' is set on object 'Object Repository/Login/Usuario'
+
+01-10-2025T18:29:54 - [MESSAGE][PASSED] - Text 'EL102613' is set on object 'Object Repository/Login/Usuario'
+
+01-10-2025T18:29:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/BotonLogin")): Object: 'Object Repository/Login/BotonLogin' is clicked on
+
+01-10-2025T18:30:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/BotonLogin' is clicked on
+
+01-10-2025T18:30:02 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Test1-Login' successfully
+
+01-10-2025T18:30:02 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Consultar Cuenta/Menu"), 30): Object 'Object Repository/Consultar Cuenta/Menu' is visible
+
+01-10-2025T18:30:03 - [MESSAGE][PASSED] - Object 'Object Repository/Consultar Cuenta/Menu' is visible
+
+01-10-2025T18:30:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Consultar Cuenta/Menu")): Object: 'Object Repository/Consultar Cuenta/Menu' is clicked on
+
+01-10-2025T18:30:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Consultar Cuenta/Menu' is clicked on
+
+01-10-2025T18:30:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Consultar Cuenta/Menu Usuario")): Object: 'Object Repository/Consultar Cuenta/Menu Usuario' is clicked on
+
+01-10-2025T18:30:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Consultar Cuenta/Menu Usuario' is clicked on
+
+01-10-2025T18:30:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Consultar Cuenta/Operaciones Minoristas")): Object: 'Object Repository/Consultar Cuenta/Operaciones Minoristas' is clicked on
+
+01-10-2025T18:30:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Consultar Cuenta/Operaciones Minoristas' is clicked on
+
+01-10-2025T18:30:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Consultar Cuenta/Buscar Cuenta")): Object: 'Object Repository/Consultar Cuenta/Buscar Cuenta' is clicked on
+
+01-10-2025T18:30:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Consultar Cuenta/Buscar Cuenta' is clicked on
+
+01-10-2025T18:30:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Consultar Cuenta Segunda Fase/Borrar X")): Object: 'Object Repository/Consultar Cuenta Segunda Fase/Borrar X' is clicked on
+
+01-10-2025T18:30:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Consultar Cuenta Segunda Fase/Borrar X' is clicked on
+
+01-10-2025T18:30:07 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Consultar Cuenta Segunda Fase/Ingresar ID"), "9680585"): Text '9680585' is set on object 'Object Repository/Consultar Cuenta Segunda Fase/Ingresar ID'
+
+01-10-2025T18:30:08 - [MESSAGE][PASSED] - Text '9680585' is set on object 'Object Repository/Consultar Cuenta Segunda Fase/Ingresar ID'
+
+01-10-2025T18:30:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Consultar Cuenta Segunda Fase/Encontrar")): Object: 'Object Repository/Consultar Cuenta Segunda Fase/Encontrar' is clicked on
+
+01-10-2025T18:30:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Consultar Cuenta Segunda Fase/Encontrar' is clicked on
+
+01-10-2025T18:30:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Consultar Cuenta Segunda Fase/Vision General")): Object: 'Object Repository/Consultar Cuenta Segunda Fase/Vision General' is clicked on
+
+01-10-2025T18:30:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Consultar Cuenta Segunda Fase/Vision General' is clicked on
+
+01-10-2025T18:30:11 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+01-10-2025T18:30:11 - [MESSAGE][PASSED] - Current window maximized
+
+01-10-2025T18:30:11 - [TEST_STEP][PASSED] - closeWindowIndex(1): Window with index 1 is closed
+
+01-10-2025T18:30:18 - [MESSAGE][PASSED] - Window with index 1 is closed
+
+01-10-2025T18:30:18 - [TEST_STEP][PASSED] - Start listener action : closeBrowser: Browser is closed
+
+01-10-2025T18:30:18 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+01-10-2025T18:30:19 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Test4-Consulta Pago" time="48.921" classname="Test Cases/Test4-Consulta Pago" status="PASSED">
+         <system-out><![CDATA[01-10-2025T18:30:19 - [TEST_CASE][PASSED] - Test Cases/Test4-Consulta Pago: Test Cases/Test4-Consulta Pago
+
+01-10-2025T18:30:19 - [TEST_STEP][PASSED] - Start listener action : openBrowserAndLogin: Call Test Case 'Test Cases/Test1-Login' successfully
+
+01-10-2025T18:30:19 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+01-10-2025T18:30:19 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+01-10-2025T18:30:19 - [MESSAGE][INFO] - User set preference: ['args', '[--ignore-certificate-errors, --start-maximized]']
+
+01-10-2025T18:30:19 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+01-10-2025T18:30:19 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+01-10-2025T18:30:19 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+01-10-2025T18:30:19 - [MESSAGE][PASSED] - Current window maximized
+
+01-10-2025T18:30:19 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://products.web.t24-noprod.cfbhd.com/Browser/servletcontroller' successfully
+
+01-10-2025T18:30:42 - [MESSAGE][PASSED] - Navigate to 'https://products.web.t24-noprod.cfbhd.com/Browser/servletcontroller' successfully
+
+01-10-2025T18:30:42 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test1-Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Test1-Login' successfully
+
+01-10-2025T18:30:42 - [TEST_CASE][PASSED] - Test Cases/Test1-Login: Test Cases/Test1-Login
+
+01-10-2025T18:30:42 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/Usuario"), USUARIO): Text 'EL102613' is set on object 'Object Repository/Login/Usuario'
+
+01-10-2025T18:30:43 - [MESSAGE][PASSED] - Text 'EL102613' is set on object 'Object Repository/Login/Usuario'
+
+01-10-2025T18:30:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/BotonLogin")): Object: 'Object Repository/Login/BotonLogin' is clicked on
+
+01-10-2025T18:31:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/BotonLogin' is clicked on
+
+01-10-2025T18:31:00 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Test1-Login' successfully
+
+01-10-2025T18:31:00 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Consultar Cuenta/Menu"), 30): Object 'Object Repository/Consultar Cuenta/Menu' is visible
+
+01-10-2025T18:31:00 - [MESSAGE][PASSED] - Object 'Object Repository/Consultar Cuenta/Menu' is visible
+
+01-10-2025T18:31:00 - [TEST_STEP][PASSED] - click(findTestObject("Consultar Cuenta/Menu")): Object: 'Object Repository/Consultar Cuenta/Menu' is clicked on
+
+01-10-2025T18:31:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Consultar Cuenta/Menu' is clicked on
+
+01-10-2025T18:31:01 - [TEST_STEP][PASSED] - click(findTestObject("Consultar Cuenta/Menu Usuario")): Object: 'Object Repository/Consultar Cuenta/Menu Usuario' is clicked on
+
+01-10-2025T18:31:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Consultar Cuenta/Menu Usuario' is clicked on
+
+01-10-2025T18:31:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Consulta Pago/Pagos")): Object: 'Object Repository/Consulta Pago/Pagos' is clicked on
+
+01-10-2025T18:31:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Consulta Pago/Pagos' is clicked on
+
+01-10-2025T18:31:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Consulta Pago/Orden de pago")): Object: 'Object Repository/Consulta Pago/Orden de pago' is clicked on
+
+01-10-2025T18:31:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Consulta Pago/Orden de pago' is clicked on
+
+01-10-2025T18:31:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Consulta Pago/Ingreso Orden de Pago")): Object: 'Object Repository/Consulta Pago/Ingreso Orden de Pago' is clicked on
+
+01-10-2025T18:31:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Consulta Pago/Ingreso Orden de Pago' is clicked on
+
+01-10-2025T18:31:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Consulta Pago/Account Transfer Home")): Object: 'Object Repository/Consulta Pago/Account Transfer Home' is clicked on
+
+01-10-2025T18:31:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Consulta Pago/Account Transfer Home' is clicked on
+
+01-10-2025T18:31:07 - [TEST_STEP][PASSED] - Start listener action : closeBrowser: Browser is closed
+
+01-10-2025T18:31:07 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+01-10-2025T18:31:07 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[01-10-2025T18:28:45 - [TEST_STEP][PASSED] - Start listener action : openBrowserAndLogin: Call Test Case 'Test Cases/Test1-Login' successfully
+
+01-10-2025T18:28:45 - [TEST_STEP][PASSED] - println("--- INICIANDO SUITE: " + testSuiteContext.getTestSuiteId() + " ---"): null
+
+01-10-2025T18:28:45 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+01-10-2025T18:28:45 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+01-10-2025T18:28:45 - [MESSAGE][INFO] - User set preference: ['args', '[--ignore-certificate-errors, --start-maximized]']
+
+01-10-2025T18:28:46 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+01-10-2025T18:28:47 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+01-10-2025T18:28:47 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+01-10-2025T18:28:47 - [MESSAGE][PASSED] - Current window maximized
+
+01-10-2025T18:28:47 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://products.web.t24-noprod.cfbhd.com/Browser/servletcontroller' successfully
+
+01-10-2025T18:29:09 - [MESSAGE][PASSED] - Navigate to 'https://products.web.t24-noprod.cfbhd.com/Browser/servletcontroller' successfully
+
+01-10-2025T18:29:09 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/Test1-Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Test1-Login' successfully
+
+01-10-2025T18:29:09 - [TEST_CASE][PASSED] - Test Cases/Test1-Login: Test Cases/Test1-Login
+
+01-10-2025T18:29:10 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/Usuario"), USUARIO): Text 'EL102613' is set on object 'Object Repository/Login/Usuario'
+
+01-10-2025T18:29:11 - [MESSAGE][PASSED] - Text 'EL102613' is set on object 'Object Repository/Login/Usuario'
+
+01-10-2025T18:29:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/BotonLogin")): Object: 'Object Repository/Login/BotonLogin' is clicked on
+
+01-10-2025T18:29:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/BotonLogin' is clicked on
+
+01-10-2025T18:29:30 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Test1-Login' successfully
+
+01-10-2025T18:28:45 - [TEST_SUITE][PASSED] - Test Suite Login - Consulta Cuentas: null
+
+01-10-2025T18:31:07 - [TEST_STEP][PASSED] - Start listener action : closeBrowser: Browser is closed
+
+01-10-2025T18:31:07 - [TEST_STEP][PASSED] - println("--- FINALIZANDO SUITE: " + testSuiteContext.getTestSuiteId() + " ---"): null
+
+01-10-2025T18:31:07 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+01-10-2025T18:31:07 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

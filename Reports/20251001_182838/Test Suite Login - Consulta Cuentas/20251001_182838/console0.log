@@ -1,0 +1,85 @@
+2025-10-01 18:28:45.624 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/Test Suite Login - Consulta Cuentas
+2025-10-01 18:28:45.702 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Fabian leiton
+2025-10-01 18:28:45.703 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = AutomatizacionBHDLeon
+2025-10-01 18:28:45.703 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = eyder.leiton - 002-001-02100
+2025-10-01 18:28:45.704 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 11 64bit
+2025-10-01 18:28:45.704 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 192.168.40.29
+2025-10-01 18:28:45.705 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 10.3.1.0
+--- INICIANDO SUITE: Test Suites/Test Suite Login - Consulta Cuentas ---
+2025-10-01 18:28:45.966 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-10-01 18:28:45.973 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['args', '[--ignore-certificate-errors, --start-maximized]']
+2025-10-01 18:28:46.048 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+oct. 01, 2025 6:28:47 P. M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+ADVERTENCIA: Unable to find an exact match for CDP version 140, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 140
+2025-10-01 18:28:47.756 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 30df229a6f77407db1017a781d308d35
+2025-10-01 18:28:47.758 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 140.0.7339.208
+2025-10-01 18:28:47.758 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2025-10-01 18:28:47.760 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-10-01 18:28:47.772 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-10-01 18:29:09.877 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-10-01 18:29:09.877 INFO  c.k.katalon.core.main.TestCaseExecutor   - CALL Test Cases/Test1-Login
+2025-10-01 18:29:10.033 DEBUG testcase.Test1-Login                     - 1: setText(findTestObject("Object Repository/Login/Usuario"), USUARIO)
+2025-10-01 18:29:11.009 DEBUG testcase.Test1-Login                     - 2: click(findTestObject("Object Repository/Login/BotonLogin"))
+2025-10-01 18:29:30.734 INFO  c.k.katalon.core.main.TestCaseExecutor   - END CALL Test Cases/Test1-Login
+2025-10-01 18:29:30.734 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-10-01 18:29:30.820 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-10-01 18:29:30.820 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Test2-Consulta Cuenta
+2025-10-01 18:29:30.858 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2025-10-01 18:29:31.162 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-10-01 18:29:31.162 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['args', '[--ignore-certificate-errors, --start-maximized]']
+2025-10-01 18:29:31.164 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+oct. 01, 2025 6:29:31 P. M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+ADVERTENCIA: Unable to find an exact match for CDP version 140, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 140
+2025-10-01 18:29:32.004 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 3aefe83a46d39f2891f84b6866c9bfd4
+2025-10-01 18:29:32.005 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 140.0.7339.208
+2025-10-01 18:29:32.006 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2025-10-01 18:29:32.007 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-10-01 18:29:32.008 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-10-01 18:29:54.320 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-10-01 18:29:54.320 INFO  c.k.katalon.core.main.TestCaseExecutor   - CALL Test Cases/Test1-Login
+2025-10-01 18:29:54.329 DEBUG testcase.Test1-Login                     - 1: setText(findTestObject("Object Repository/Login/Usuario"), USUARIO)
+2025-10-01 18:29:54.897 DEBUG testcase.Test1-Login                     - 2: click(findTestObject("Object Repository/Login/BotonLogin"))
+2025-10-01 18:30:02.825 INFO  c.k.katalon.core.main.TestCaseExecutor   - END CALL Test Cases/Test1-Login
+2025-10-01 18:30:02.826 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-10-01 18:30:02.847 DEBUG testcase.Test2-Consulta Cuenta           - 1: waitForElementVisible(findTestObject("Consultar Cuenta/Menu"), 30)
+2025-10-01 18:30:03.169 DEBUG testcase.Test2-Consulta Cuenta           - 2: click(findTestObject("Object Repository/Consultar Cuenta/Menu"))
+2025-10-01 18:30:03.467 DEBUG testcase.Test2-Consulta Cuenta           - 3: click(findTestObject("Object Repository/Consultar Cuenta/Menu Usuario"))
+2025-10-01 18:30:04.412 DEBUG testcase.Test2-Consulta Cuenta           - 4: click(findTestObject("Object Repository/Consultar Cuenta/Operaciones Minoristas"))
+2025-10-01 18:30:04.964 DEBUG testcase.Test2-Consulta Cuenta           - 5: click(findTestObject("Object Repository/Consultar Cuenta/Buscar Cuenta"))
+2025-10-01 18:30:06.765 DEBUG testcase.Test2-Consulta Cuenta           - 6: click(findTestObject("Object Repository/Consultar Cuenta Segunda Fase/Borrar X"))
+2025-10-01 18:30:07.834 DEBUG testcase.Test2-Consulta Cuenta           - 7: setText(findTestObject("Object Repository/Consultar Cuenta Segunda Fase/Ingresar ID"), "9680585")
+2025-10-01 18:30:08.849 DEBUG testcase.Test2-Consulta Cuenta           - 8: click(findTestObject("Object Repository/Consultar Cuenta Segunda Fase/Encontrar"))
+2025-10-01 18:30:09.159 DEBUG testcase.Test2-Consulta Cuenta           - 9: click(findTestObject("Object Repository/Consultar Cuenta Segunda Fase/Vision General"))
+2025-10-01 18:30:11.642 DEBUG testcase.Test2-Consulta Cuenta           - 10: maximizeWindow()
+2025-10-01 18:30:11.648 DEBUG testcase.Test2-Consulta Cuenta           - 11: closeWindowIndex(1)
+2025-10-01 18:30:19.062 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Test2-Consulta Cuenta
+2025-10-01 18:30:19.066 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-10-01 18:30:19.066 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Test4-Consulta Pago
+2025-10-01 18:30:19.079 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-10-01 18:30:19.079 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['args', '[--ignore-certificate-errors, --start-maximized]']
+2025-10-01 18:30:19.084 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+oct. 01, 2025 6:30:19 P. M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+ADVERTENCIA: Unable to find an exact match for CDP version 140, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 140
+2025-10-01 18:30:19.805 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 76da1f2baf0a6f293a3d02b7567eb909
+2025-10-01 18:30:19.805 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 140.0.7339.208
+2025-10-01 18:30:19.806 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2025-10-01 18:30:19.806 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-10-01 18:30:19.806 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-10-01 18:30:42.436 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-10-01 18:30:42.436 INFO  c.k.katalon.core.main.TestCaseExecutor   - CALL Test Cases/Test1-Login
+2025-10-01 18:30:42.445 DEBUG testcase.Test1-Login                     - 1: setText(findTestObject("Object Repository/Login/Usuario"), USUARIO)
+2025-10-01 18:30:43.123 DEBUG testcase.Test1-Login                     - 2: click(findTestObject("Object Repository/Login/BotonLogin"))
+2025-10-01 18:31:00.606 INFO  c.k.katalon.core.main.TestCaseExecutor   - END CALL Test Cases/Test1-Login
+2025-10-01 18:31:00.606 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-10-01 18:31:00.633 DEBUG testcase.Test4-Consulta Pago             - 1: waitForElementVisible(findTestObject("Consultar Cuenta/Menu"), 30)
+2025-10-01 18:31:00.874 DEBUG testcase.Test4-Consulta Pago             - 2: click(findTestObject("Consultar Cuenta/Menu"))
+2025-10-01 18:31:01.179 DEBUG testcase.Test4-Consulta Pago             - 3: click(findTestObject("Consultar Cuenta/Menu Usuario"))
+2025-10-01 18:31:02.306 DEBUG testcase.Test4-Consulta Pago             - 4: click(findTestObject("Object Repository/Consulta Pago/Pagos"))
+2025-10-01 18:31:02.832 DEBUG testcase.Test4-Consulta Pago             - 5: click(findTestObject("Object Repository/Consulta Pago/Orden de pago"))
+2025-10-01 18:31:03.375 DEBUG testcase.Test4-Consulta Pago             - 6: click(findTestObject("Object Repository/Consulta Pago/Ingreso Orden de Pago"))
+2025-10-01 18:31:03.915 DEBUG testcase.Test4-Consulta Pago             - 7: click(findTestObject("Object Repository/Consulta Pago/Account Transfer Home"))
+2025-10-01 18:31:07.987 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Test4-Consulta Pago
+--- FINALIZANDO SUITE: Test Suites/Test Suite Login - Consulta Cuentas ---
+2025-10-01 18:31:08.017 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2025-10-01 18:31:08.017 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/Test Suite Login - Consulta Cuentas
+2025-10-01 18:31:08.017 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================

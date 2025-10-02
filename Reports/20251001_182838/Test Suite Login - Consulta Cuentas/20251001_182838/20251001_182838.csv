@@ -1,0 +1,32 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test Suite Login - Consulta Cuentas,Chrome 140.0.7339.208,,,01-10-2025 18:28:45,01-10-2025 18:31:08,"2m - 22,337s",PASSED
+,,,,,,,
+Start listener action : openBrowserAndLogin,Chrome 140.0.7339.208,,,01-10-2025 18:28:45,01-10-2025 18:29:30,"45,037s",PASSED
+,,,,,,,
+Test Cases/Test2-Consulta Cuenta,Chrome 140.0.7339.208,,,01-10-2025 18:29:30,01-10-2025 18:30:19,"48,242s",PASSED
+Start listener action : openBrowserAndLogin,Chrome 140.0.7339.208,,,01-10-2025 18:29:30,01-10-2025 18:30:02,"31,980s",PASSED
+"waitForElementVisible(findTestObject(""Consultar Cuenta/Menu""), 30)",Chrome 140.0.7339.208,,,01-10-2025 18:30:02,01-10-2025 18:30:03,"0,322s",PASSED
+"click(findTestObject(""Object Repository/Consultar Cuenta/Menu""))",Chrome 140.0.7339.208,,,01-10-2025 18:30:03,01-10-2025 18:30:03,"0,297s",PASSED
+"click(findTestObject(""Object Repository/Consultar Cuenta/Menu Usuario""))",Chrome 140.0.7339.208,,,01-10-2025 18:30:03,01-10-2025 18:30:04,"0,945s",PASSED
+"click(findTestObject(""Object Repository/Consultar Cuenta/Operaciones Minoristas""))",Chrome 140.0.7339.208,,,01-10-2025 18:30:04,01-10-2025 18:30:04,"0,553s",PASSED
+"click(findTestObject(""Object Repository/Consultar Cuenta/Buscar Cuenta""))",Chrome 140.0.7339.208,,,01-10-2025 18:30:04,01-10-2025 18:30:06,"1,800s",PASSED
+"click(findTestObject(""Object Repository/Consultar Cuenta Segunda Fase/Borrar X""))",Chrome 140.0.7339.208,,,01-10-2025 18:30:06,01-10-2025 18:30:07,"1,069s",PASSED
+"setText(findTestObject(""Object Repository/Consultar Cuenta Segunda Fase/Ingresar ID""), ""9680585"")",Chrome 140.0.7339.208,,,01-10-2025 18:30:07,01-10-2025 18:30:08,"1,014s",PASSED
+"click(findTestObject(""Object Repository/Consultar Cuenta Segunda Fase/Encontrar""))",Chrome 140.0.7339.208,,,01-10-2025 18:30:08,01-10-2025 18:30:09,"0,310s",PASSED
+"click(findTestObject(""Object Repository/Consultar Cuenta Segunda Fase/Vision General""))",Chrome 140.0.7339.208,,,01-10-2025 18:30:09,01-10-2025 18:30:11,"2,483s",PASSED
+maximizeWindow(),Chrome 140.0.7339.208,,,01-10-2025 18:30:11,01-10-2025 18:30:11,"0,006s",PASSED
+closeWindowIndex(1),Chrome 140.0.7339.208,,,01-10-2025 18:30:11,01-10-2025 18:30:18,"7,210s",PASSED
+Start listener action : closeBrowser,Chrome 140.0.7339.208,,,01-10-2025 18:30:18,01-10-2025 18:30:19,"0,204s",PASSED
+,,,,,,,
+Test Cases/Test4-Consulta Pago,Chrome 140.0.7339.208,,,01-10-2025 18:30:19,01-10-2025 18:31:07,"48,921s",PASSED
+Start listener action : openBrowserAndLogin,Chrome 140.0.7339.208,,,01-10-2025 18:30:19,01-10-2025 18:31:00,"41,531s",PASSED
+"waitForElementVisible(findTestObject(""Consultar Cuenta/Menu""), 30)",Chrome 140.0.7339.208,,,01-10-2025 18:31:00,01-10-2025 18:31:00,"0,241s",PASSED
+"click(findTestObject(""Consultar Cuenta/Menu""))",Chrome 140.0.7339.208,,,01-10-2025 18:31:00,01-10-2025 18:31:01,"0,305s",PASSED
+"click(findTestObject(""Consultar Cuenta/Menu Usuario""))",Chrome 140.0.7339.208,,,01-10-2025 18:31:01,01-10-2025 18:31:02,"1,127s",PASSED
+"click(findTestObject(""Object Repository/Consulta Pago/Pagos""))",Chrome 140.0.7339.208,,,01-10-2025 18:31:02,01-10-2025 18:31:02,"0,525s",PASSED
+"click(findTestObject(""Object Repository/Consulta Pago/Orden de pago""))",Chrome 140.0.7339.208,,,01-10-2025 18:31:02,01-10-2025 18:31:03,"0,543s",PASSED
+"click(findTestObject(""Object Repository/Consulta Pago/Ingreso Orden de Pago""))",Chrome 140.0.7339.208,,,01-10-2025 18:31:03,01-10-2025 18:31:03,"0,540s",PASSED
+"click(findTestObject(""Object Repository/Consulta Pago/Account Transfer Home""))",Chrome 140.0.7339.208,,,01-10-2025 18:31:03,01-10-2025 18:31:07,"3,865s",PASSED
+Start listener action : closeBrowser,Chrome 140.0.7339.208,,,01-10-2025 18:31:07,01-10-2025 18:31:07,"0,202s",PASSED
+,,,,,,,
+Start listener action : closeBrowser,Chrome 140.0.7339.208,,,01-10-2025 18:31:07,01-10-2025 18:31:07,"0,007s",PASSED

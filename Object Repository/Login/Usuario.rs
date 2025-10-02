@@ -6,6 +6,10 @@
    <elementGuidId>c758f487-b224-42a7-84b9-1a46b0c58df2</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'userId' and @type = 'text' and @name = 'userId' and @placeholder = 'User ID']</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//input[@id='userId']</value>
       </entry>
@@ -29,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>7d657326-e515-4d6a-a53b-bfec14934060</webElementGuid>
+      <webElementGuid>3f125616-d9f4-4c50-9f95-49e6172f5cd3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +41,7 @@
       <name>id</name>
       <type>Main</type>
       <value>userId</value>
-      <webElementGuid>47d32e5f-0313-4f12-9ecc-b79c5faee69e</webElementGuid>
+      <webElementGuid>844d8663-8099-4c34-a65a-a0df7fcda5a2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +49,7 @@
       <name>autocomplete</name>
       <type>Main</type>
       <value>off</value>
-      <webElementGuid>a3e202de-cb43-488e-834b-70077afa0c2d</webElementGuid>
+      <webElementGuid>f063ac06-ea04-4249-b554-5f53da79387e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +57,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>f07c51d2-8a42-46c4-accc-017592d0ea71</webElementGuid>
+      <webElementGuid>8eb92c6f-65ba-4cd2-b52b-b07a8c1a8dc2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -61,7 +65,7 @@
       <name>name</name>
       <type>Main</type>
       <value>userId</value>
-      <webElementGuid>319d08ab-7b6c-4f04-ae29-66e19c371dac</webElementGuid>
+      <webElementGuid>e26f6828-3db6-48b2-9d11-44f123f0787d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -69,7 +73,7 @@
       <name>placeholder</name>
       <type>Main</type>
       <value>User ID</value>
-      <webElementGuid>02d0f72b-8172-4019-9067-64931cc1c2c3</webElementGuid>
+      <webElementGuid>d5fb19d7-2519-4ff1-b145-9ac766a36f8c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,7 +81,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;userId&quot;)</value>
-      <webElementGuid>fd0f402a-bef7-4df0-9f2f-33fbd65167eb</webElementGuid>
+      <webElementGuid>9910ebf2-bb13-48af-b746-6ce50fc2b539</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -85,7 +89,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='userId']</value>
-      <webElementGuid>0abee98a-19ba-4552-8dc2-cf1886f39e36</webElementGuid>
+      <webElementGuid>cb0f6d39-5d73-4806-b827-2023cd2d29c8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +97,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//form[@id='Logon']/p/input</value>
-      <webElementGuid>cac9db15-3252-4c78-a1bc-d879d6a014bd</webElementGuid>
+      <webElementGuid>34c3ad60-fd9d-4d7f-a42b-869e13a5ee84</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +105,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//p/input</value>
-      <webElementGuid>51eedd9c-8b82-4194-bb4c-d637b420771a</webElementGuid>
+      <webElementGuid>b4bfcabc-53b5-47d9-a1d5-ffc85f7b238f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,6 +113,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@id = 'userId' and @type = 'text' and @name = 'userId' and @placeholder = 'User ID']</value>
-      <webElementGuid>4bb67e6d-f411-4f50-bf9c-1b662a912c16</webElementGuid>
+      <webElementGuid>100484bd-cde5-4c18-ad73-417898c54f84</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
