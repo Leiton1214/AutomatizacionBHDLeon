@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>Setup_OpenBrowser</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>212cb299-6209-4460-b7b0-f961ece3e640</testCaseGuid>
-</TestCaseEntity>

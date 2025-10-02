@@ -15,6 +15,11 @@ import com.kms.katalon.core.testdata.TestData as TestData
 import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
 
+WebUI.waitForPageLoad(30 // Espera hasta 30 segundos a que la página cargue completamente
+    )
+
+WebUI.waitForElementClickable(findTestObject('Login/Usuario'), 10)
+
 WebUI.setText(findTestObject('Object Repository/Login/Usuario'), GlobalVariable.USUARIO)
 
 WebUI.click(findTestObject('Object Repository/Login/BotonLogin'))

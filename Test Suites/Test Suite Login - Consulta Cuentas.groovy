@@ -31,19 +31,19 @@ import com.kms.katalon.core.annotation.TearDownTestCase
 /**
  * Setup test suite environment.
  */
-@SetUp(skipped = false) // Please change skipped to be false to activate this method.
+@SetUp(skipped = true) // Please change skipped to be false to activate this method.
 def setUp() {
 	// Put your code here.
-	WebUI.callTestCase(findTestCase('Test Cases/Setup_OpenBrowser'), [:], FailureHandling.STOP_ON_FAILURE)
+	//WebUI.callTestCase(findTestCase('Test Cases/Setup_OpenBrowser'), [:], FailureHandling.STOP_ON_FAILURE)
 }
 
 /**
  * Clean test suites environment.
  */
-@TearDown(skipped = false) // Please change skipped to be false to activate this method.
+@TearDown(skipped = true) // Please change skipped to be false to activate this method.
 def tearDown() {
 	// Put your code here.
-	WebUI.callTestCase(findTestCase('Test Cases/TearDown_CloseBrowser'), [:], FailureHandling.STOP_ON_FAILURE)
+	//WebUI.callTestCase(findTestCase('Test Cases/TearDown_CloseBrowser'), [:], FailureHandling.STOP_ON_FAILURE)
 }
 
 /**
